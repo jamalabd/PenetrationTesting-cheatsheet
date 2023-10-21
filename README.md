@@ -78,3 +78,77 @@ The day to day of a Pentester consists of:
 
     
     Privet IP addresses are broken up into classes, A being the largest used be giant corporations & C being the smallest used for homes and small businesses. The network numbers are what you will see for an IP address at every level like stated previously 192.168 is privet and from the number of hosts per network most likely for a home or small business. Anything out side of these are public. You can rent those from your ISP ( internet service provider )
+
+- **MAC addresses**
+    
+    Layer 2
+    
+    - MAC ( Media Access Control ) represents a physical address. MAC addresses are how we communicate over switches.
+    - MAC addresses have unique identifiers. The image bellow shows the MAC address
+        
+
+      <img width="371" alt="Screenshot 2023-10-15 at 2 56 45 PM" src="https://github.com/jamalabd/PenetrationTesting-cheatsheet/assets/45414121/fa84dc2b-2cd0-4446-8dc6-7d84f0f02315">
+
+        
+    - It has 6 pairs of 2, he first 3 pairs are the identifiers. These can be used  to look up the MAC address
+- **TCP VS UDP**
+    
+    TCP ( Transmission Control Protocol ) 
+    
+    - This is  a connection oriented protocol
+    - Best suited for making a connection, use if need high reliability
+    - Ex: HTTP ( hypertext transfer protocol ), HTTPS ( hypertext transfer protocol secure ), SSH ( secure shell ), FTP ( file transfer protocol )
+    - The most commonly used protocol
+    - Works on a three way handshake, `SYN > SYN ACK > ACK` your send `SYN`, They achnology you and send `SYN ACK`back the your good to start your desired action `ACK`  this is how we connect to ports
+    
+    UDP ( User Datagram Protocol ) 
+    
+    - This is a connectionless protocol
+    - EX: Streaming service, DNS ( domain name system ), Voice over IP
+- **Common Ports and Protocols**
+    
+    TCP ( Transmission Control Protocol ) 
+    
+    - FTP (21)
+    - SSH (22)
+    - Telnet (23)
+    - SMTP (25)
+    - DNS (53)
+    - HTTP (80) / HTTPS (443)
+    - РОР3 (110)
+    - SMB (139 + 445)
+    - IMAP (143)
+    
+    UDP ( User Datagram Protocol ) 
+    
+    - DNS (53)
+    - DHCP (67, 68)
+    - TFTP (69)
+    - SNMP (161)
+- **OSI ( Open Systems Interconnection ) Model**
+    
+    Please do not throw someone's pizza away 
+    
+    1 P - Physical layer: data cables, cat6, something you plug in
+    
+    2 D - Data layer: switching, MAC addresses
+    
+    3 N - Network layer: IP addresses, routing
+    
+    4 T - Transport layer: TCP / UDP
+    
+    5 S - Session Layer: Session management 
+    
+    6 P - Presentation layer: WMV, JPEG, MOV files  
+    
+    7 A - Applications layer:  HTTP, SMTP applications that you utilize 
+    
+
+### **Subnetting**
+
+LOOK INTO FURTHER
+
+Resources
+
+https://www.youtube.com/watch?v=ZxAwQB8TZsM
+https://drive.google.com/file/d/1ETKH31-E7G-7ntEOlWGZcDZWuukmeHFe/view?pli=1 
